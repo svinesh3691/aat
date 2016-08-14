@@ -1,0 +1,166 @@
+
+    <!--breadcrumbs start-->
+    <div class="breadcrumbs">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-4">
+            <h1>
+              Contact us
+            </h1>
+          </div>
+          <div class="col-lg-8 col-sm-8">
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--breadcrumbs end-->
+
+
+
+    <!--container start-->
+    <div class="container">
+
+
+      <div class="row">
+        <div class="col-lg-5 col-sm-5 address">
+          <section class="contact-infos">
+            <h4 class="title custom-font text-black">
+              ADDRESS
+            </h4>
+            <address>
+              Arulmighu Altharai Amman Thirukovil,
+              <br>
+              Kattathurai, Kattathurai post,
+              <br>
+              Kanyakumari Dist,
+              <br>
+              Tamil nadu, India
+            </address>
+          </section>
+          <section class="contact-infos">
+            <h4 class="title custom-font text-black">
+              E- Contacts
+            </h4>
+            <p>
+              Mail : contact@altharaiammankovil.org
+              <br>
+              Web  : www.altharaiammankovil.org
+              <br>
+            </p>
+          </section>
+          <section class="contact-infos">
+            <h4>
+              TELEPHONE
+            </h4>
+
+
+            <p>
+              <i class="icon-phone">
+              </i>
+              +91 9443211460
+            </p>
+            <p>
+              <i class="icon-phone">
+              </i>
+              +91 9488426439
+            </p>
+
+            <p>
+              <i class="icon-phone">
+              </i>
+              +91 9365858658
+            </p>
+
+
+          </section>
+        </div>
+        <div class="col-lg-7 col-sm-7 address">
+          <h4>
+            Drop us a line so that we can hear from you
+          </h4>
+          <div class="contact-form">
+            <form role="form"  ng-submit="subForm(insdata);" >
+              <div class="form-group">
+                <label for="name">
+                  Name
+                </label>
+                <input type="text" placeholder="" ng-model="insdata.post_name" id="name" required class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="email">
+                  Email
+                </label>
+                <input type="email"  required placeholder="" ng-model="insdata.post_mail" id="email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="phone">
+                  Phone
+                </label>
+                <input type="text" id="phone"  required ng-model="insdata.post_phone" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="phone">
+                  Message
+                </label>
+                <textarea placeholder="" rows="5"  required ng-model="insdata.post_message" class="form-control">
+                </textarea>
+              </div>
+
+
+
+              <button ng-show="button_show" class="btn btn-info" type="submit">
+              Submit
+              </button>
+              <button ng-show="button_load" class="btn btn-info" type="button">
+              <i class='fa fa-cog fa-spin fa-2x fa-fw margin-bottom'></i> Sending Mail...
+              </button>
+            </form>
+
+
+<!-- 
+            <form 
+name="myForm" novalidate>
+
+<p>Username:<br>
+<input type="text" name="user" ng-model="user" required>
+<span style="color:red" ng-show="myForm.user.$dirty && myForm.user.$invalid">
+<span ng-show="myForm.user.$error.required">Username is required.</span>
+</span>
+</p>
+
+<p>Email:<br>
+<input type="email" name="email" ng-model="email" required>
+<span style="color:red" ng-show="myForm.email.$dirty && myForm.email.$invalid">
+<span ng-show="myForm.email.$error.required">Email is required.</span>
+<span ng-show="myForm.email.$error.email">Invalid email address.</span>
+</span>
+</p>
+
+<p>
+<input type="submit"
+ng-disabled="myForm.user.$dirty && myForm.user.$invalid ||  
+myForm.email.$dirty && myForm.email.$invalid">
+</p>
+
+</form> -->
+
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--container end-->
+    
+
+    <!--google map start-->
+    <div class="contact-map">
+      <div id="map-canvas" style="width: 100%; height: 400px">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2204.4936990505794!2d77.27411221446806!3d8.28080064211215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x94539d9c09698412!2sArulmigu+Aaltharai+Amman+Temple!5e1!3m2!1sen!2sin!4v1430299454731" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+      </div>
+    </div>
+    <!--google map end-->
+
+

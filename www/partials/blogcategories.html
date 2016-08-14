@@ -1,0 +1,68 @@
+
+
+    <!--breadcrumbs start-->
+    <div class="breadcrumbs">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-8">
+            <h1>
+              <span>BLOG CATEGORIES</span>
+              
+            </h1>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--breadcrumbs end-->
+
+    <!--container start-->
+    <div class="container">
+      <div class="row">
+        <!--blog start-->
+
+        <div class="col-lg-6">
+          <div class="blog-side-item">
+            <div class="search-row">
+              <!-- <input type="text" class="form-control" placeholder="Search here"> -->
+            </div>
+            <div class="category">
+              <h3>
+                Select Category
+              </h3>
+              <br>
+              <ul class="list-unstyled">
+                <li ng-repeat="cat in cats">
+                  <a href="#/blog-category/{{cat.cat_id}}">
+                    <i class="fa fa-angle-right pr-10">
+                    </i>
+                    {{cat.cat_name}}
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+            
+
+            
+
+
+            
+
+
+          </div>
+        </div>
+
+        <!--blog end-->
+      </div>
+
+    </div>
+    <!--container end-->

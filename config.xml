@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.altharaiammankovil.vin"
+        version   = "1.0.0">
+
+    <name>Altharai Amman Temple</name>
+
+    <description>
+            Altharai Amman Temple        
+    </description>
+
+    <author href="http://vintechnosys.com" email="contact@vintechnosys.com">
+        S Vinesh
+    </author>
+    <icon src="icon.png"/>
+    <preference name="permissions" value="none"/>
+    <access origin="*" />
+
+    
+
+</widget>

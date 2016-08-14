@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="aat">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Arulmigu Altharai Amman Thirukovil | Kattathurai | Kanyakumari District">
+    <link rel="shortcut icon" href="aat.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>
+      Arulmigu Altharai Amman Thirukovil | Kattathurai | Kanyakumari District
+    </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="template/css/bootstrap.min.css" rel="stylesheet">
+    <link href="template/css/theme.css" rel="stylesheet">
+    <link href="template/css/bootstrap-reset.css" rel="stylesheet">
+
+    <!--external css-->
+    <link href="template/assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="template/css/flexslider.css"/>
+    <link href="template/css/style.css" rel="stylesheet">
+    <link href="template/css/style-responsive.css" rel="stylesheet" />
+
+
+
+  <script type="text/javascript" src="cordova.js"></script>
+
+
+
+    <script src="template/js/jquery-1.8.3.min.js">
+    </script>
+
+
+
+
+
+    <script type="text/javascript" src="template/assets/fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+  <link rel="stylesheet" type="text/css" href="template/assets/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+ <link href="template/css/photoswipe.css" rel="stylesheet" />
+ <link href="template/css/default-skin.css" rel="stylesheet" />
+ <script type="text/javascript" src="template/js/photoswipe.min.js"></script>
+  <script type="text/javascript" src="template/js/photoswipe-ui-default.min.js"></script>
+
+    <style type="text/css">
+        .menu_active > a
+        {
+           background-color: #A80000 !important;
+        }
+        .min_clr
+        {
+          color: #A80000; 
+        }
+        header
+        {
+          /*display: none;*/
+        }
+        .fancybox-skin
+        {
+          overflow-x: hidden   !important;
+        }
+
+        .fancybox-inner {
+          position: fixed !important;
+          top: 0  !important;
+        }
+
+        .navbar-toggle {
+              position: fixed;
+              top: -7px;
+              right: 12px;
+        }
+
+        .navbar-default .navbar-toggle:hover {
+            background-color: #A80000 !important;
+        }
+        .navbar-default .navbar-toggle {
+            background-color: #A80000 !important;
+        }
+
+        toggle:focus {
+            background-color: #A80000 !important;
+        }
+    </style>
+  </head>
+
+  <body>
+    <!--header start-->
+    <header class="head-section">
+      <div class="navbar navbar-default navbar-static-top container">
+          <div class="navbar-header">
+              <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!-- <a class="navbar-brand" href="index.html">A<span>cme</span></a> -->
+              <!-- <a class="navbar-brand" href="index.html"><img src="template/img/amman.png"></a> -->
+              <!-- <h1 class="heading_logo sdr">
+                 அருள்மிகு ஆல்தரை அம்மன் திருக்கோவில்
+              </h1> -->
+              <h1 class="heading_logo" style="margin-top: .2em;font-size:1.6em;  margin-left: 5%;line-height:46px;">
+                 அருள்மிகு ஆல்தரை அம்மன் திருக்கோவில்
+              </h1>
+              <!-- <h1 class="heading_main sdf" style="display:none">
+                 <a class="navbar-brand" href="index.html"><img src="template/img/amman.png" style="width:75px;height:75px;"></a>
+              </h1> -->
+          </div>
+      </div>
+    </header>
+    <!--header end-->
+
+
+
+              <route-loading-indicator></route-loading-indicator>
+
+
+
+
+
+
+
+
+
+                <div ng-if='!isRouteLoading' ng-view="" id="ng-view" autoscroll="true"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--footer start-->
+    <!-- footer end -->
+    <!--small footer start -->
+    <footer class="footer-small">
+        <div class="container">
+            <div class="row">
+
+
+              <div class="col-md-4">
+                  <div class="copyright">
+                    <p> Copyright &copy; Altharai Amman Temple</p>
+                  </div>
+                </div>
+
+
+
+              
+                <div class="col-md-4">
+                   <div class="copyright" style="float:right">
+                    <p>Developed by <a style="color:#fff" href="http://www.vintechnosys.com">VIN Technosys</a>.</p>
+                  </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </footer>
+    <!--small footer end-->
+
+
+
+<style type="text/css">
+
+.mmee
+{
+
+  position: fixed;
+  bottom: 0px;
+  display: none;
+  width: 100%;
+  background-color: orange;
+  color: #fff !important
+  display:none;
+}
+.so{
+  display: block !important ;
+}
+.ac>a{
+  color: #fff;
+}
+
+
+.nav>li>a:hover, .nav>li>a:focus
+{
+  background-color: #A80000 !important;
+
+}
+</style>
+    <div class="navbar-collapse collapse mmee">
+              <ul class="nav navbar-nav men">
+                  
+                  <li class="ac menu_active">
+                      <a href="#/home">Home</a>
+                  </li>
+                 <!--  <li class="ac">
+                      <a href="#/about">About</a>
+                  </li> -->
+                  <li class="ac">
+                      <a href="#/gallery">Gallery</a>
+                  </li>
+                   <li class="ac">
+                              <a href="#/blog">Blog</a>
+                          </li>
+
+                          <li class="ac">
+                              <a href="#/blog_categories">Blog Categories </a>
+                          </li>
+                  
+                  
+                  <li class="ac">
+                      <a href="#/contact">Contact</a>
+                  </li>
+
+
+
+
+                  <li class="ac">
+                      <a onclick="e()">Exit</a>
+                  </li>
+                        
+
+
+              </ul>
+          </div>
+    <!-- js placed at the end of the document so the pages load faster
+<script src="js/jquery.js">
+</script>
+-->
+
+
+<script src="app/urls.js"></script>   
+
+<script src="js/angular.min.js"></script>
+<script src="js/angular-route.min.js"></script>
+<script src='js/ng-infinite-scroll.min.js'></script>
+<script src="app/app.js"></script>   
+<script src="app/angular-sanitize.min.js"></script>   
+
+
+
+
+    <script src="template/js/bootstrap.min.js">
+    </script>
+
+    <script defer src="template/js/jquery.flexslider.js">
+    </script>
+
+
+
+    <!--common script for all pages-->
+    <script src="template/js/common-scripts.js">
+    </script>
+
+
+    <script type="text/javascript">
+
+      $('.ac').click(function(){
+
+          $('.menu_active').removeClass('menu_active');        
+          $(this).addClass('menu_active');
+           $('.mmee').toggleClass('so');
+           $('.navbar-toggle').trigger('click');
+      });
+
+      function e()
+      {
+
+        var d = confirm('Are you sure ?');
+        if(d)
+        {
+          navigator.app.exitApp();
+        }
+        else
+        {
+          // $('.mmee').toggleClass('so');
+        }
+      }
+
+      
+
+    </script>
+
+
+
+    <script type="text/javascript">
+
+
+    $(document).ready(function(){
+        setTimeout(function(){
+      document.addEventListener("menubutton", onMenuKeyDown, false);
+
+        },3000)
+    })
+    // document.addEventListener("backbutton", c , false);
+
+      function onMenuKeyDown() {
+        $('.mmee').toggleClass('so');
+            
+      }
+
+    </script>
+
+  </body>
+</html>
